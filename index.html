@@ -1,99 +1,99 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="OOP exam questions">
-        <title>
-            Шпаргалка по Git
-        </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div class="header exam">
-            <h2>
-                Шпаргалка по Git
-            </h2>           
-        </div>
-        <div class="exam" id="table">
-            <table>
-                <caption>Команды Git</caption>
-                <tr>
-                    <th>Команда</th>
-                    <th>Описание</th>
-                </tr>
-                <tr>
-                    <td>git init</td>
-                    <td>Инициализация. Создает новый пустой Git-репозиторий в текущей папке. Появляется скрытая директория .git, где будет храниться вся история изменений.</td>
-                </tr>
-                <tr>
-                    <td>git clone url</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git add file</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git add .</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git commit -m "comment"</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git commit -a -m "comment"</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git push url</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git status</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git log</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git branch branch_name</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git checkout branch_name</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git checkout -b branch_name</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>git remote</td>
-                    <td>-</td>
-                </tr>
-            </table>
-        </div >
-        <div class="exam">
-            <h4>Тесты на знание команд Git</h4>
-            <ol >
-                <li><a href="https://progtask.ru/test-po-git/">Тест по Git</a></li>
-                <li><a href="https://www.learnqa.ru/gittest">Тест на знание Git</a></li>
-                <li><a href="https://itproger.com/test/git">Тест на знание основ Git</a></li>
-            </ul>
-        </div>
-        <footer>
-            <div class="exam">
-                <lh>Полезные ссылки</lh>
-                <ul>
-                    <li><a class="foo" href="https://labs-org.ru/html/">html</a></li>
-                    <li><a class="foo" href="https://labs-org.ru/css/">css</a></li>
-                    <li><a class="foo" href="https://medium.com/@vvladislavv/%D1%88%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0-%D0%BF%D0%BE-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BC-git-github-dcd6b91406a8">Шпаргалка по основам Git</a></li>
-                    <li><a class="foo" href="https://training.github.com/downloads/ru/github-git-cheat-sheet/">Команды Git</a></li>
-                    <li><a class="foo" href="https://proglib.io/p/git-cheatsheet">Шпаргалка по Git, в которой представлены основные команды</a></li>
-                </ul>
-            </div>
-        </footer>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="OOP exam questions">
+    <title>
+        Шпаргалка по Git
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header exam">
+    <h2>
+        Шпаргалка по Git
+    </h2>
+</div>
+<div class="exam" id="table">
+    <table>
+        <caption>Команды Git</caption>
+        <tr>
+            <th>Команда</th>
+            <th>Описание</th>
+        </tr>
+        <tr>
+            <td>git init</td>
+            <td>Инициализация. Создает новый пустой Git-репозиторий в текущей папке. Появляется скрытая директория .git, где будет храниться вся история изменений.</td>
+        </tr>
+        <tr>
+            <td>git clone url</td>
+            <td>Клонирование. Копирует существующий удаленный репозиторий по указанному адресу (url) на ваш компьютер.</td>
+        </tr>
+        <tr>
+            <td>git add file</td>
+            <td>Подготовка файла. Добавляет конкретный файл в "индекс". Это значит, что изменения в этом файле будут включены в следующий коммит.</td>
+        </tr>
+        <tr>
+            <td>git add .</td>
+            <td>Подготовка всех изменений. Добавляет все новые, измененные и удаленные файлы в текущей директории (и поддиректориях) в индекс для коммита.</td>
+        </tr>
+        <tr>
+            <td>git commit -m "comment"</td>
+            <td>Фиксация изменений. Сохраняет все подготовленные изменения (из индекса) в историю репозитория. Флаг -m позволяет сразу написать комментарий к версии.</td>
+        </tr>
+        <tr>
+            <td>git commit -a -m "comment"</td>
+            <td>Быстрый коммит. Автоматически добавляет в индекс все измененные и удаленные файлы (которые уже отслеживались Git) и сразу создает коммит. Важно: новые файлы (untracked) этой командой не подхватятся.</td>
+        </tr>
+        <tr>
+            <td>git push url</td>
+            <td>Отправка данных. Загружает ваши локальные коммиты в удаленный репозиторий по указанному адресу.</td>
+        </tr>
+        <tr>
+            <td>git status</td>
+            <td>Состояние. Показывает текущее состояние рабочего дерева: какие файлы изменены, какие подготовлены к коммиту, а какие Git еще не отслеживает.</td>
+        </tr>
+        <tr>
+            <td>git log</td>
+            <td>История. Выводит список всех коммитов, сделанных в текущей ветке, с именами авторов, датами и комментариями.</td>
+        </tr>
+        <tr>
+            <td>git branch branch_name</td>
+            <td>Создание ветки. Создает новую ветку с именем branch_name, но не переключает на нее.</td>
+        </tr>
+        <tr>
+            <td>git checkout branch_name</td>
+            <td>Переключение. Переходит на указанную ветку (или восстанавливает файлы из нее в рабочую директорию).</td>
+        </tr>
+        <tr>
+            <td>git checkout -b branch_name</td>
+            <td>Создание и переход. Комбинированная команда: создает новую ветку и сразу переключает вас на нее.</td>
+        </tr>
+        <tr>
+            <td>git remote</td>
+            <td>Удаленные репозитории. Показывает список имен подключенных удаленных репозиториев (например, origin).</td>
+        </tr>
+    </table>
+</div >
+<div class="exam">
+    <h4>Тесты на знание команд Git</h4>
+    <ol >
+        <li><a href="https://progtask.ru/test-po-git/">Тест по Git</a></li>
+        <li><a href="https://www.learnqa.ru/gittest">Тест на знание Git</a></li>
+        <li><a href="https://itproger.com/test/git">Тест на знание основ Git</a></li>
+        </ul>
+</div>
+<footer>
+    <div class="exam">
+        <lh>Полезные ссылки</lh>
+        <ul>
+            <li><a class="foo" href="https://labs-org.ru/html/">html</a></li>
+            <li><a class="foo" href="https://labs-org.ru/css/">css</a></li>
+            <li><a class="foo" href="https://medium.com/@vvladislavv/%D1%88%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0-%D0%BF%D0%BE-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BC-git-github-dcd6b91406a8">Шпаргалка по основам Git</a></li>
+            <li><a class="foo" href="https://training.github.com/downloads/ru/github-git-cheat-sheet/">Команды Git</a></li>
+            <li><a class="foo" href="https://proglib.io/p/git-cheatsheet">Шпаргалка по Git, в которой представлены основные команды</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
 </html>
