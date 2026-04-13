@@ -1,28 +1,41 @@
-.header {
-    justify-content: center;
-    text-align:center;
+/* 1. Стиль для контейнера страницы */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
-ol li {
-    list-style-position: inside;
+
+/* 2. Стиль для карточек контента */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    background: white;
 }
-.exam {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+/* 3. Эффект при наведении на карточку */
+.card:hover {
+    transform: translateY(-5px);
 }
-#table {
-    line-height:200%
-}
-footer {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left:  30px;
-    background: #444;
+
+/* 4. Стиль для акцентных кнопок */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
     color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
-a.foo:hover {
-  text-decoration-color: black;
-  color: black;
+
+/* 5. Кастомный скроллбар (веб-кит) */
+::-webkit-scrollbar {
+    width: 10px;
 }
-a.foo {
-  text-decoration-color: white;
-  color: white;
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
 }
